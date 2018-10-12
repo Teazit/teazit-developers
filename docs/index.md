@@ -1,4 +1,4 @@
-![teazit-logo-color](../assets/teazit-images/teazit-images.004.jpeg)
+![teazit-logo-color](assets/teazit-images/teazit-images.004.jpeg)
 
 #
 > Just telling 'how it works' is not always enough to get your ideas
