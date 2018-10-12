@@ -6,11 +6,11 @@
 
 ## Our Products
 
-[iOS - Android App](/products/application) |
-[Teazit Cameras](/products/cameras) | [Live-streamings](/products/live-streamings)
+[iOS - Android App](products/application) |
+[Teazit Cameras](products/cameras) | [Live-streamings](products/live-streamings)
 
 ## Our documentation
-[FAQ](/docs/faq) | [Tutorials](/docs/tutorials) | API | SDK
+[FAQ](docs/faq) | [Tutorials](docs/tutorials) | API | SDK
 
 ## Motivation
 
