@@ -1,24 +1,27 @@
-# Cameras
+# Teazit Cameras
+> Tous les evenements meritent d'un peu plus de visibilité, si seulement...
+
+!!! Success "Teazit 4k Camera"
+    Teazit released it's first 4k connected camera.
+    Our R&D team focused on building the best camera dedicated to events with
+    low light conditions. Resulting with the first camera using Sony sensor* dedicated to live-streaming events.
+
+    *\*4k sensor with Low light sensibility*
 
 ![Teazit 4k Camera](../assets/teazit-images/teazit-images.002.jpeg)
-> Teazit 4k cameras
-
-Teazit released it's first 4k connected camera.
-Our R&D team focused on building the best camera dedicated to events with
-low light conditions. Resulting with the first camera using Sony sensor,
-with hight low light sensibility and with a 4k sensor,
-dedicated to live-streaming events.
-
-Our goal, at **Teazit**, is to re-work the fixed plan and create the best live
-streaming experience to your fans. Our cameras are dedicated to live-streaming
-and work directly and closely with our [live-streaming](/live-streamings)
-service.
+<!-- > Teazit 4k cameras -->
 
 ## Summary
 
 - [Summary](#summary)
+- [Motivation](#motivation)
 - [Functionalities](#functionalities)
 - [Specifications](#specifications)
+
+## Motivation
+
+Our goal, at **Teazit**, is to re-work the fixed plan and create the best live streaming experience to your fans. Our cameras are dedicated to live-streaming and work directly and closely with our [live-streaming](/live-streamings)
+service.
 
 ## Functionalities
 
@@ -46,8 +49,8 @@ access to the internet.
 
 ### Video
 
-|  |  |
-|:--------------|:---------------------|
+|  |  |  |
+|:--------------|:---------------------|-------|
 | Sensor     | Sony 4k Sensor              |
 | Processor & Encoder (SoM) | Nvidia TX1   |
 | Sensor Resolution    | 12.4 Megapixels  |
@@ -55,42 +58,34 @@ access to the internet.
 | Aspect Ratio | 16:9 |
 | Frame Rate | 30fps |
 | Video - Ethernet Streaming | Up to 1080p30 at 6Mbps max |
-| Video - LTE Streaming      | Up to 1080p30 at 4Mbps max - *Work in progress* |
-| Video - MP4 Recording only | 4k recording* - *Work in progress* |
+| Video - LTE Streaming      | Up to 1080p30 at 4Mbps max | *Work in progress* |
+| Video - MP4 Recording only | 4k recording* | *Work in progress* |
 
-!!! note "Social requirements"
-    * Facebook maximum streaming resolution is 720p30
-    * Instagram maximum streaming resolution is ... ????
-    * Twitter / Periscope maximum streaming resolution and bitrate is 540p up to 800Kbps
-
-\*4K recording requires SD card to be UHS Speed Class 3 (U3) or higher.
+*\*4K recording requires SD card to be UHS Speed Class 3 (U3) or higher.*
 
 ### Microphone
 
+Teazit work with Rode to capture audio during event.
+We design Teazit camera to handle all events configurations. Our microphone is pluggable and we can either capture audio form a simple ambient micro or directly on the sound desk.
+
+- Simple Microphone
+- Lapel Microphone
+- Ambient Microphone
+- Directly from a sound desk
 
 ### Networking
 
-* Ethernet 100Mbps
-* Wi-Fi - *Work In Progress*
-* LTE - Mobile network - *Work In Progress*
+|  |  |  |
+|--|--|--|
+| Ethernet | | |
+| Wi-Fi | | *Work In Progress*
+| LTE - Mobile network | | *Work In Progress*
 
 !!! Note "Streaming bandwidth requirements"
     Check your connection using [speedtest.net](https://www.speedtest.net) before purchasing Teazit Camera for live streaming.
 
-    - Full HD: Up to 4 Mbps (At least 3 Mbps of steady upload speed recommended)
-    - HD: Up to 3.5 Mbps (At least 2 Mbps of steady upload speed recommended)
-    - SD (Standard Definition): Up to 1.5 Mbps (at least 800 kbps of steady upload speed recommended).
-
-
-### Power & Battery
-
-Included AC Power Adapter
-
-Input: 100-240 VAC, 0.5A
-
-Output: 5VDC 2.0A
-
-
-### Dimensions & Weight
-
-*Work in Progress*
+    |  |  |  |
+    |--|--|--|
+    | Full HD | 1080p | Up to 4 Mbps *(At least 3 Mbps of steady upload speed recommended)* |
+    | HD | 720p | Up to 3.5 Mbps *(At least 2 Mbps of steady upload speed recommended)* |
+    | SD | 540p | Up to 1.5 Mbps *(at least 800 kbps of steady upload speed recommended).* |

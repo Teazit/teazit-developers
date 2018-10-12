@@ -1,6 +1,14 @@
-site_name: Teazit
+site_name: Teazit Developers
+extra_css:
+  - css/tables.css
+
 theme:
   name: 'material'
+  custom_dir: custom_theme/
+  # logo: 'assets/teazit-images/teazit-images.0004.jpeg'
+  logo:
+    icon: 'favorite'
+    # icon: 'assets/teazit-images/teazit-images.0004.jpeg'
 
   # 404 page
   static_templates:
@@ -36,11 +44,14 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Welcome: index.md
-  - Application: application.md
-  - Cameras: cameras.md
-  - Live Streamings: live-streamings.md
-  - FAQ: faq.md
+  - Home : index.md
+  - Products:
+    - Application: products/application.md
+    - Cameras: products/cameras.md
+    - Live Streamings: products/live-streamings.md
+  - Documentations:
+    - Tutorials: docs/tutorials/index.md
+    - FAQ: docs/faq.md
 
 # Google Analytics
 google_analytics:
