@@ -1,3 +1,11 @@
+.md-header {
+  /* background-color: #3399cc; */
+  background: linear-gradient(to right,rgba(108,98,160,.85),rgba(31,127,172,.85));
+}
+.md-tabs {
+  /* background-color: #3399cc; */
+  background: linear-gradient(to right,rgba(108,98,160,.85),rgba(31,127,172,.85));
+}
 .md-hero {
   height: 200px;
 }
