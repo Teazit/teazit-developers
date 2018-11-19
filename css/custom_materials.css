@@ -1,6 +1,7 @@
 .md-header {
   /* background-color: #3399cc; */
-  background: linear-gradient(to right,rgba(108,98,160,.85),rgba(31,127,172,.85));
+  /* background: linear-gradient(to right,rgba(108,98,160,.85),rgba(31,127,172,.85)); */
+  background: linear-gradient(to right,#6c62a0,#1f7fac)
 }
 .md-tabs {
   /* background-color: #3399cc; */
