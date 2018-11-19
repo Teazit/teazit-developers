@@ -11,8 +11,9 @@ theme:
   logo:
     icon: 'favorite'
   palette:
-    primary: 'indigo'
-    accent: 'indigo'
+    default: '#3399cc'
+    primary: '#3399cc'
+    accent: '#3399cc'
   # logo: 'assets/teazit-images/teazit-images.0004.jpeg'
     # icon: 'assets/teazit-images/teazit-images.0004.jpeg'
   # 404 page
