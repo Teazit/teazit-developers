@@ -49,9 +49,31 @@ have released so far is just the top of the ice-berg. Stay tuned...
 *fr: Sureté de fonctionnement ?*
 
 *Niveau des contraintes et prise en compte de ces contraintes (matériel et logiciel)*
+*Niveau des contraintes (sureté de fonctionnement, cybersécurité, gestion de l’énergie …) et
+Prise en compte de ces contraintes (matériel et logiciel) :*
+
 
 Teazit is very focus to provide the best security. We spend lots of work to
 build... TBC
+
+Chez Teazit, nous avons toujours pris a coeur de répondre au mieux a la protection
+des données de nos utilisateurs et de nos employés.
+Tous les services Teazit accessibles sur internet et toutes les communications
+resultantes sont entierements encryptées par SSL*. Ainsi, nous assurons une encryption
+de toute la chaine de communication et aucune information utilisateurs ne peut etre
+intercepter par une personne tierce.
+
+En interne à Teazit, seul 1 noeux est accessible à internet. Les bases de données,
+processus de tache de fond etc.. n'ont aucun acces à internet. Permettant d'avoir
+une securité plus importante.
+Sachant, que ce type de securité n'est pas suffisante, nous sensibilisons nos employés
+aux informations sensibles auxquelles ils ont accès....
+
+Il faut surement parler de notre respect de la RGPD.
+
+Je suis aussi tombeé sur "Le programme sécurité de SWIFT". Ca ne doit pas etre trop dur a faire
+
+Notre service est une architecture Cloud qui nous permet des capacités de stockage et de traitement de données très importantes et nécessaires pour la gestion des événements de sécurité.
 
 ### **Standard and normes respects ?**
 *fr: Méthodologies mises en œuvre, respect des standards et des normes*

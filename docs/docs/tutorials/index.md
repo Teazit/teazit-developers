@@ -1,3 +1,6 @@
+title: Teazit Tutorials
+description: Nullam urna elit, malesuada eget finibus ut, ac tortor.
+hero: Teazit tutoriaux
 
 ## Teazit Live Streaming
 

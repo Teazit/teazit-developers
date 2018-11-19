@@ -1,18 +1,28 @@
 site_name: Teazit Developers
 extra_css:
   - css/tables.css
+  - css/custom_materials.css
 
 theme:
   name: 'material'
   custom_dir: custom_theme/
-  # logo: 'assets/teazit-images/teazit-images.0004.jpeg'
+  feature:
+    tabs: true
   logo:
     icon: 'favorite'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  # logo: 'assets/teazit-images/teazit-images.0004.jpeg'
     # icon: 'assets/teazit-images/teazit-images.0004.jpeg'
-
   # 404 page
   static_templates:
     - 404.html
+
+# # Page tree
+# pages:
+#   - Home: index.md
+#   - tutorials: tutorials/index.md
 
 # Extensions
 markdown_extensions:
@@ -24,6 +34,7 @@ markdown_extensions:
   - markdown.extensions.meta
   - markdown.extensions.toc:
       permalink: true
+  - meta
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all

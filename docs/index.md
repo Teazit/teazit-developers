@@ -1,6 +1,14 @@
-![teazit-logo-color](assets/teazit-images/teazit-images.004.jpeg)
+title: Teazit Documentation
+description: Default description text
+hero: Welcome to Teazit Documentation
+<!-- path: docs
+source: index.md -->
 
-#
+<!-- # Headline -->
+
+<!-- ![teazit-logo-color](assets/teazit-images/teazit-images.004.jpeg) -->
+
+# Welcome
 > Just telling 'how it works' is not always enough to get your ideas
 > across, while neither is just showing them running.
 

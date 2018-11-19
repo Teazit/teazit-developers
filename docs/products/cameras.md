@@ -1,3 +1,7 @@
+title: Teazit Camera
+description: Default Description text
+hero: Teazit Camera
+
 # Teazit Cameras
 > Tous les evenements meritent d'un peu plus de visibilité, si seulement...
 

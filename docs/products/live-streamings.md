@@ -1,3 +1,7 @@
+title: Teazit Live streamings
+description: Default Description text
+hero: Teazit Live Streamings
+
 # Teazit Live Streamings
 > Live videos brings authentic moments and events to life in a way that no words or pictures can. That why, we are very proud to announce:
 

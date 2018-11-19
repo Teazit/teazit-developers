@@ -1,3 +1,7 @@
+title: Teazit Application
+description: Default Description text
+hero: Teazit Application
+
 # Teazit Application
 
 > [www.teazit.fr](https://www.teazit.fr)

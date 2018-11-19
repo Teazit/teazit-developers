@@ -1,0 +1,22 @@
+.md-hero {
+  min-height: 200px;
+}
+
+.md-hero {
+  /* position: absolute; */
+  /* background: url('/assets/teazit-images/carousel-homepage-surf.jpg') center center no-repeat; */
+  background: -webkit-gradient(linear,left top, right top,from(rgba(108,98,160,.85)),to(rgba(31,127,172,.85))), url('/assets/teazit-images/carousel-homepage-guitare.png') center center no-repeat;
+  background: linear-gradient(to right,rgba(108,98,160,.85),rgba(31,127,172,.85)), url('/assets/teazit-images/background-pro.jpg') center center no-repeat;
+  /* background: linear-gradient(rgba(0,130,170,.5),rgba(0,130,170,.5)), url('/path/image.jpg'); */
+}
+/* .md-hero::before {
+  position:absolute;
+  background: url('/assets/teazit-images/carousel-homepage-surf.jpg') center center no-repeat;
+} */
+
+.md-hero::before {
+  position: absolute;
+  background: url('/assets/teazit-images/carousel-homepage-surf.jpg') center center no-repeat;
+  /* background: -webkit-gradient(linear,left top, right top,from(rgba(108,98,160,.85)),to(rgba(31,127,172,.85)));
+  background: linear-gradient(to right,rgba(108,98,160,.85),rgba(31,127,172,.85)); */
+}
