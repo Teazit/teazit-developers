@@ -3,7 +3,7 @@ description: Default Description text
 hero: Teazit Live Streamings
 
 # Teazit Live Streamings
-> Live videos brings authentic moments and events to life in a way that no words or pictures can. That why, we are very proud to announce:
+> Live videos brings authentic moments and events to life in a way that no words or pictures can.
 
 ## Summary
 
@@ -50,7 +50,7 @@ You can find more information about our actions regarding security
 
 The decision to build our own streaming technology had a high impact on our development team. However, we didn't want to depend on a third party company, like Wowza, because we knew that this technology was **only** the first step of our vision.
 
-At **Teazit**, we rely on RTMP (Real-Time Messaging Protocol). It allow a very low-latency communication between our camera and our servers. Then we rely on multi-bitrates HLS (Http Live Streaming) to provide our user with the best streaming quality regarding their network limitations. Let's see how it looks:
+At **Teazit**, we rely on RTMP (Real-Time Messaging Protocol). It allow a very low-latency communication between our camera and our servers. Then we rely on multi-bitrates HLS (Http Live Streaming) to provide our user with the best streaming quality regarding their network limitations.
 
 ![teazit-live-schema](../assets/teazit-images/teazit-images.001.jpeg)
 > Teazit live technology schema
@@ -97,7 +97,7 @@ streams secure and working. You can read an understand more about the different 
 - **Stopped**:
 - **Archived**:
 
-## Images
+<!-- ## Images -->
 
-![](../assets/images/teazit-live-web-ui.png "This is a title")
-> First Teazit live during a Js Meetup
+<!-- ![](../assets/images/teazit-live-web-ui.png "This is a title") -->
+<!-- > First Teazit live during a Js Meetup -->

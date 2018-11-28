@@ -1,4 +1,4 @@
-site_name: Teazit coffee
+site_name: Wikeazit
 extra_css:
   - css/tables.css
   - css/custom_materials.css
@@ -35,7 +35,6 @@ markdown_extensions:
   - markdown.extensions.meta
   - markdown.extensions.toc:
       permalink: true
-  - meta
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -57,8 +56,12 @@ markdown_extensions:
 # Page tree
 nav:
   - Home : index.md
+  - Media:
+    - Application: media/application.md
+    - Algorithms: media/algorithms.md
+    - Search: media/search.md
   - Products:
-    - Application: products/application.md
+    # - Index: products/index.md
     - Cameras: products/cameras.md
     - Live Streamings: products/live-streamings.md
   - Documentations:

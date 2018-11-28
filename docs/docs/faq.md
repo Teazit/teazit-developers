@@ -89,8 +89,8 @@ our day-to-day work.
 *fr: Prise en compte des dimensions économique, sociale et environnementale ?*
 *Ex: Consommation en Énergie, émission de gaz à effet de serre, dimensions sociétales…*
 
-Eeks...
-
+We are waiting on new eco-servers to be deployed.
+If you have any idea on how we could improve our eco-friendship, we will be glad to hear about it.
 
 ---
 

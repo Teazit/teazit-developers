@@ -3,7 +3,7 @@ description: Default Description text
 hero: Teazit Camera
 
 # Teazit Cameras
-> Tous les evenements meritent d'un peu plus de visibilité, si seulement...
+<!-- > Tous les evenements meritent d'un peu plus de visibilité, si seulement... -->
 
 !!! Success "Teazit 4k Camera"
     Teazit released it's first 4k connected camera.

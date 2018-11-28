@@ -1,6 +1,6 @@
-title: Teazit Documentation
+title: Teazit Engineering
 description: Default description text
-hero: Welcome to Teazit Documentation
+hero: Teazit Engineering
 <!-- path: docs
 source: index.md -->
 
@@ -14,7 +14,7 @@ source: index.md -->
 
 ## Our Products
 
-[iOS - Android App](products/application) |
+[iOS - Android App](media/application) |
 [Teazit Cameras](products/cameras) | [Live-streamings](products/live-streamings)
 
 ## Our documentation
