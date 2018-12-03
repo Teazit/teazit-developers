@@ -67,6 +67,10 @@ nav:
   - Documentations:
     - Tutorials: docs/tutorials/index.md
     - FAQ: docs/faq.md
+  - Jobs:
+    - Home: jobs/index.md
+    - Web Internship: jobs/web-engineer-intern.md
+    - Python Internship: jobs/python-engineer-intern.md
 
 # Google Analytics
 google_analytics:
