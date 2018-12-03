@@ -1,18 +1,10 @@
 ![teazit-logo-color](docs/assets/teazit-images/teazit-images.004.jpeg)
 
-# Install the docs
-> Just telling 'how it works' is not always enough to get your ideas
-> across, while neither is just showing them running.
+# Teazit's Developer and API Documentation Site
 
-*TODO: Installation, test, deploy process*
+👋 Hey there,
 
-# Serve the doc
-```
-mkdocs serve
-```
+TEazit's documentation and developer site can be found at https://teazit.github.io/teazit-developers/.
+There you can find info on our media, products, job openings and much more! 🎉
 
-## Deploy the docs
-
-```
-mkdocs gh-deploy -r github
-```
+If you'd rather correspond directly with a human 🙆‍♂️, you can email us at contact@teazit.fr.
