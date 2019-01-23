@@ -24,7 +24,7 @@ hero: Teazit Camera
 
 ## Motivation
 
-Our goal, at **Teazit**, is to re-work the fixed plan and create the best live streaming experience to your fans. Our cameras are dedicated to live-streaming and work directly and closely with our [live-streaming](/live-streamings)
+Our goal, at **Teazit**, is to re-work the fixed plan and create the best live streaming experience to your fans. Our cameras are dedicated to live-streaming and work directly and closely with our [live-streaming](/streamings)
 service.
 
 ## Functionalities
@@ -34,9 +34,9 @@ service.
 | Plug and Play | When power and Ethernet is plugged to the camera, our software automatically authenticate, configure and start a stream when needed. | Y |
 | Remote access | Dedicated backoffice accessible from www.teazit.fr | Y |
 | 4k sensor     | The term "4K" is generic and refers to any resolution with a horizontal pixel count of approximately 4,000. | Y |
-| Region of Interest - *ROI* | Creating multiple region of interests. The camera will be able to switch automatically from one ROI to another. Adding dynamism to your live-streaming with only one camera | Dec 2018 |
-| Tracking | Creating a ROI with someone you want to track, and let the camera follow this person | Dec 2018 |
-| Multi cameras | Plug additional **Teazit** camera together to create mutliple point of views. | Dec 2018 |
+| Region of Interest - *ROI* | Creating multiple region of interests. The camera will be able to switch automatically from one ROI to another. Adding dynamism to your live-streaming with only one camera | April 2019 |
+| Tracking | Creating a ROI with someone you want to track, and let the camera follow this person | April 2019 |
+| Multi cameras | Plug additional **Teazit** camera together to create mutliple point of views. | Dec 2019 |
 
 ## Specifications
 
@@ -49,6 +49,8 @@ quality possible regarding your internet network.
 The camera is fully manageable through our live-streaming service. You can start
 and record a live-stream anywhere in the world. As long as the camera has
 access to the internet.
+
+You can find more information about our software architecture [here](/cameras/software)
 
 
 ### Video

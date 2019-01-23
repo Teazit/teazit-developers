@@ -60,10 +60,12 @@ nav:
     - Application: media/application.md
     - Algorithms: media/algorithms.md
     - Search: media/search.md
-  - Products:
+  - Streaming:
+    - Index: streamings/index.md
+  - Cameras:
     # - Index: products/index.md
-    - Cameras: products/cameras.md
-    - Live Streamings: products/live-streamings.md
+    - Index: cameras/index.md
+    - Software: cameras/software.md
   - Documentations:
     - Tutorials: docs/tutorials/index.md
     - FAQ: docs/faq.md

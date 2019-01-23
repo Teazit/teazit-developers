@@ -11,18 +11,18 @@ Available on [iOS](https://itunes.apple.com/app/apple-store/id1254988164?pt=1187
 ![Teazit Application](../assets/teazit-images/teazit-images.003.jpeg)
 
 
-!!! Tip "Result - Last updates: **October 2018**"
+!!! Tip "Result - Last updates: **January 2019**"
     ### Main
     |  |  |
     |--|--|
-    | Users | 15 000 |
-    | Teaz | 8 000|
+    | Users | 17 000 |
+    | Teaz | 9 000|
     | Lives | 100|
 
     ### Other
 
     |  |  |
     |--|--|
-    | Places | 8 000|
-    | Events | 8 000|
+    | Places | 10 000|
+    | Events | 9 000|
     | Cities | 125 |

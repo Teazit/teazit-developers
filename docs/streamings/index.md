@@ -21,14 +21,14 @@ Following, you will find all the informations to understand our live-streamings 
 
 Because we know you love and use all socials media, Teazit Live technology aims to give you the power to broadcast your stream to everyones.
 
-Our engineering and design team have worked closed together to provide the easiest tool to create a live-streaming on your faborite social media. This feature is still under heavy development, and some social might be unstable or unavailable. You can see the bellow table, which summarize our states with social medias.
+Our engineering and design team have worked closed together to provide the easiest tool to create a live-streaming on your favorite social media. This feature is still under heavy development, and some social might be unstable or unavailable. You can see the bellow table, which summarize our states with social medias.
 
 | Social | State | Other |
 |--------|-------|-------|
 | **Facebook** | Unstable | Release data:  **October 2018** |
-| **Twitter** | Unavailable | Release date: **December 2018** |
-| **Youtube** | Unavailable | Release date: **December 2018** |
-| **Instagram** | Unavailable | Release date: **December 2018** |
+| **Youtube** | Unavailable | Release date: **June 2019** |
+| **Twitter** | Unavailable | Release date: **December 2019** |
+| **Instagram** | Unavailable | Release date: **December 2019** |
 
 !!! note "Social requirements"
     * Facebook maximum streaming resolution is 720p30

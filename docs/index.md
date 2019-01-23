@@ -15,7 +15,7 @@ source: index.md -->
 ## Our Products
 
 [iOS - Android App](media/application) |
-[Teazit Cameras](products/cameras) | [Live-streamings](products/live-streamings)
+[Teazit Cameras](cameras) | [Live-streamings](streamings)
 
 ## Our documentation
 [FAQ](docs/faq) | [Tutorials](docs/tutorials) | API | SDK

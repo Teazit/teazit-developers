@@ -40,7 +40,7 @@ very high ambitions and we don't want to be limited by others. Our vision is
 very clear and our everyday work is focused to build this vision.
 
 The past year and a half, we have built a [social media](/application),
-a connected [4k camera](/cameras), a [live-streaming](/live-streamings) service... It might look a lot, or not.
+a connected [4k camera](/cameras), a [live-streaming](/streamings) service... It might look a lot, or not.
 Anyway, this is only the beginning. Everything we do is rock-solid, what we
 have released so far is just the top of the ice-berg. Stay tuned...
 
