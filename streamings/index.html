@@ -491,6 +491,61 @@
     Technical States
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#draft" title="Draft" class="md-nav__link">
+    Draft
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#starting" title="Starting" class="md-nav__link">
+    Starting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preview" title="Preview" class="md-nav__link">
+    Preview
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#live" title="Live" class="md-nav__link">
+    Live
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ending" title="Ending" class="md-nav__link">
+    Ending
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ended" title="Ended" class="md-nav__link">
+    Ended
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archived" title="Archived" class="md-nav__link">
+    Archived
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -784,6 +839,61 @@
     Technical States
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#draft" title="Draft" class="md-nav__link">
+    Draft
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#starting" title="Starting" class="md-nav__link">
+    Starting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preview" title="Preview" class="md-nav__link">
+    Preview
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#live" title="Live" class="md-nav__link">
+    Live
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ending" title="Ending" class="md-nav__link">
+    Ending
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ended" title="Ended" class="md-nav__link">
+    Ended
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archived" title="Archived" class="md-nav__link">
+    Archived
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -916,19 +1026,36 @@ the live stream might become unstable.</p>
 </ul>
 </div>
 <h3 id="technical-states">Technical States<a class="headerlink" href="#technical-states" title="Permanent link">&para;</a></h3>
-<p>Our <strong>Stream</strong>, at Teazit, rely on Finite-State Machine pattern to keep every
+<p>Our <strong>Stream</strong>, at Teazit, rely on <a href="https://en.wikipedia.org/wiki/Finite-state_machine">Finite-State Machine pattern</a> to keep every
 streams secure and working. You can read an understand more about the different states bellow:</p>
-<ul>
-<li><strong>Draft</strong>:</li>
-<li><strong>Scheduled</strong>:</li>
-<li><strong>Starting</strong>:</li>
-<li><strong>Preview</strong>:</li>
-<li><strong>Live</strong>:</li>
-<li><strong>Interrupted</strong>:</li>
-<li><strong>Stoping</strong>:</li>
-<li><strong>Stopped</strong>:</li>
-<li><strong>Archived</strong>:</li>
-</ul>
+<div class="admonition info">
+<p class="admonition-title">Final State Machine</p>
+<h4 id="draft">Draft<a class="headerlink" href="#draft" title="Permanent link">&para;</a></h4>
+<p>Default creation state. Nothing will be done.</p>
+<h4 id="starting">Starting<a class="headerlink" href="#starting" title="Permanent link">&para;</a></h4>
+<p>When you decide to start your live-streaming, we move our streams
+into a <em>Starting</em> state. This state is key for our application. It allows our softwares to communicate with your
+camera, send all the important informations, and handle all the heavy work for you.
+Under the hook, the camera automatically setup the resolution, quality, region of interests
+etc... and start publishing the video.</p>
+<h4 id="preview">Preview<a class="headerlink" href="#preview" title="Permanent link">&para;</a></h4>
+<p>The camera have started to publish live content. The Stream is
+currently available to administrators only.</p>
+<h4 id="live">Live<a class="headerlink" href="#live" title="Permanent link">&para;</a></h4>
+<p>The camera have started to publish live content. The Stream is
+publicly available.</p>
+<h4 id="ending">Ending<a class="headerlink" href="#ending" title="Permanent link">&para;</a></h4>
+<p>When you decide to end your live-streaming. We move our streams
+into a <em>Ending</em> state. This state is key for our application. It allows our softwares to communicate with your
+camera. The camera can properly stop publishing content and it goes back into
+a low-power mode until next action is requested.</p>
+<h4 id="ended">Ended<a class="headerlink" href="#ended" title="Permanent link">&para;</a></h4>
+<p>The Stream is ended.</p>
+<h4 id="archived">Archived<a class="headerlink" href="#archived" title="Permanent link">&para;</a></h4>
+<p>The Stream has been archived and a public <em>was-live</em> video is
+available.</p>
+<p><img alt="teazit-live-stream-transitions" src="../assets/teazit-images/live-stream-transitions.png" /></p>
+</div>
 <!-- ## Images -->
 
 <!-- ![](../assets/images/teazit-live-web-ui.png "This is a title") -->
