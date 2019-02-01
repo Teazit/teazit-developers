@@ -84,18 +84,42 @@ At **Teazit**, we rely on RTMP (Real-Time Messaging Protocol). It allow a very l
 
 ### Technical States
 
-Our **Stream**, at Teazit, rely on Finite-State Machine pattern to keep every
+Our **Stream**, at Teazit, rely on [Finite-State Machine pattern](https://en.wikipedia.org/wiki/Finite-state_machine) to keep every
 streams secure and working. You can read an understand more about the different states bellow:
 
-- **Draft**:
-- **Scheduled**:
-- **Starting**:
-- **Preview**:
-- **Live**:
-- **Interrupted**:
-- **Stoping**:
-- **Stopped**:
-- **Archived**:
+!!! Info "Final State Machine"
+    #### Draft
+    Default creation state. Nothing will be done.
+
+    #### Starting
+    When you decide to start your live-streaming, we move our streams
+    into a _Starting_ state. This state is key for our application. It allows our softwares to communicate with your
+    camera, send all the important informations, and handle all the heavy work for you.
+    Under the hook, the camera automatically setup the resolution, quality, region of interests
+    etc... and start publishing the video.
+
+    #### Preview
+    The camera have started to publish live content. The Stream is
+    currently available to administrators only.
+
+    #### Live
+    The camera have started to publish live content. The Stream is
+    publicly available.
+
+    #### Ending
+    When you decide to end your live-streaming. We move our streams
+    into a _Ending_ state. This state is key for our application. It allows our softwares to communicate with your
+    camera. The camera can properly stop publishing content and it goes back into
+    a low-power mode until next action is requested.
+
+    #### Ended
+    The Stream is ended.
+
+    #### Archived
+    The Stream has been archived and a public _was-live_ video is
+    available.
+
+    ![teazit-live-stream-transitions](../assets/teazit-images/live-stream-transitions.png)
 
 <!-- ## Images -->
 
